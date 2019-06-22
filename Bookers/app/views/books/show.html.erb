@@ -5,5 +5,5 @@
 <p><strong>Body:</strong><%= @post.body %></p>
 
 
-<%= link_to "Edit", edit_post_path, class: 'btn btn-success' %>
-<%= link_to "Back", :back %>
+<%= link_to "Edit", edit_post_path(@post.id), class: 'btn btn-success' %>
+<%= link_to "Back", books_path %>
